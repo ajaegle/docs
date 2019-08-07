@@ -44,6 +44,8 @@ Duration: 26s
 
 To delete the stack itself, run `pulumi stack rm`.
 
+{{< destroy-warning >}}
+
 Next, we'll look at some next steps.
 
 {{< get-started-stepper >}}

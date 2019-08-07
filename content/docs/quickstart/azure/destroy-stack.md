@@ -15,7 +15,7 @@ To destroy resources, run the following:
 $ pulumi destroy
 ```
 
-You'll be prompted to make sure you really want to delete these resources. This takes some time; Pulumi waits for the ACI to shutdown and for the resource group to be removed before it considers the destroy operation to be complete.
+You’ll be prompted to make sure you really want to delete these resources. This takes some time. Pulumi waits for the ACI to shut down and for the resource group to be removed before it considers the destroy operation to be complete.
 
 ```
 Previewing destroy (dev):
@@ -43,6 +43,8 @@ Duration: 53s
 ```
 
 To delete the stack itself, run `pulumi stack rm`.
+
+{{< destroy-warning >}}
 
 Next, we'll look at some next steps.
 
