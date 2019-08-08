@@ -17,14 +17,9 @@ provider IaaS offerings, and their catalog of services - managed Kubernetes incl
 
 <center><img src="/images/docs/quickstart/kubernetes/cake.svg" width="670"></center>
 
-## Menu
+## Use Cases
 
-- [Introduction]({{< relref "introduction.md" >}})
-- [Setup]({{< relref "setup.md" >}})
-- [FAQ]({{< relref "faq.md" >}})
-- [Tutorials]({{< relref "/docs/reference/tutorials/kubernetes/_index.md" >}})
-
-The various SDK's allow Kubernetes users to leverage Pulumi for novel forms of cluster
+The various SDKs allow Kubernetes users to leverage Pulumi for novel forms of cluster
 management, and deployment of app workloads to clusters. Users of
 Kubernetes and Pulumi can:
 
