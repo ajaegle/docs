@@ -44,9 +44,10 @@ Resources:
 Duration: 6m1s
 ```
 
-To delete the stack itself, run `pulumi stack rm`.
+To delete the stack itself, run `pulumi stack rm`. Note that this removes the stack
+entirely from `pulumi.com`, along with all of its update history. See [pulumi stack
+rm](/docs/reference/cli/pulumi_stack_rm/) for more details.
 
-{{< destroy-warning >}}
 
 Next, we'll look at some next steps.
 
